@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+	<!--meta-->
+	<meta charset='UTF-8'>
+	<meta name='viewport' content='width=device-width initial-scale=1 shrink-to-fit=no'>
+	<meta name="description" content="Samuel Okediya, an experienced full stack develer in Nigeria.">
+	<meta name="author" content="Samuel Okediya">
+	<meta name="keywords"
+		content="software developer, full stack developer, front-end developer, backend-developer, UI designer, css, html, python, php, javascript, mysql, laravel, jquery, software development blog">
+	<title>PERSONAL SOFTWARE DEVELOPMENT WEBSITE</title>
+
+	<!--links-->
+	<link href='css/bootstrap.css' rel='stylesheet' type='text/css'>
+	<link href='fontawesome/css/all.min.css' rel='stylesheet' type='text/css'>
+	<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+
+	<style type='text/css'>
+		/*Internal css rules*/
+
+		@font-face {
+			font-family: myfonts, sans-serif;
+			src: url('myfonts/Raleway-VariableFont_wght.ttf') format('ttf');
+			src: url('myfonts/Roboto-Thin.ttf') format('ttf');
+			src: url('myfonts/SourceSerif4-VariableFont_opsz,wght.ttf') format('ttf');
+		}
+
+		html,
+		body {
+			max-width: 100% !important;
+			overflow-x: hidden !important;
+			box-sizing: unset;
+		}
+
+		#banner {
+			background-image: url(images/banner9.jpg);
+			background-size: cover;
+			height: 720px;
+		}
+
+		p,
+		span {
+			color: rgb(244, 244, 249);
+			font-family: myfonts;
+		}
+
+		h3,
+		h4,
+		h2 {
+			color: rgb(48, 188, 237);
+			font-family: myfonts;
+		}
+
+		#logo {
+			background-color: rgb(244, 244, 249);
+			height: 30px;
+			width: 40px;
+		}
+
+		[alt=sampix] {
+			height: 250px !important;
+		}
+
+		#logodiv {
+			height: 50px;
+		}
+
+		#bannertext {
+			height: 30px !important;
+		}
+
+		#nav {
+			background-color: rgb(0, 0, 0);
+			position: sticky;
+			top: 0px;
+			z-index: 1;
+		}
+
+		.button {
+			background-color: rgb(48, 188, 237);
+		}
+
+		a {
+			color: rgb(48, 188, 237) !important;
+			text-decoration: none;
+		}
+
+		#currentpage {
+			background-color: rgb(20, 20, 20);
+		}
+
+		.socials2 {
+			background-color: rgb(48, 188, 237);
+			height: 40px;
+			width: 40px;
+		}
+
+		.explore {
+			background-color: silver;
+			border-radius: 50px;
+			box-shadow: rgba(20, 20, 20, 0.5);
+			height: 150px;
+			text-align: center;
+		}
+
+		.progress-bar {
+			background-color: rgb(20, 20, 20);
+		}
+
+		.footer {
+			border-radius: 20px;
+			height: 100px;
+		}
+
+		.exploretext {
+			color: rgb(48, 188, 237);
+		}
+
+		.exploreicons {
+			height: 80px;
+		}
+
+		#abtmebg {
+			background-image: url(images/banner2.jpg);
+			background-size: contain;
+			border-radius: 10px;
+			padding: 20px;
+		}
+
+		.abtmetext {
+			line-height: 50px;
+		}
+
+		.btndiv {
+			text-align: center;
+		}
+
+		.bannerText,
+		.submitBTN {
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body class='container-fluid'>
+	<!--banner and logo-->
+	<div>
+		<div class='row img-fluid' id='banner'>
+			<div class='col-12' id='logodiv'><img src='icons/coding.png' alt='logo' id='logo' class='img-fluid m-2'>
+			</div>
+			<div class='col-12 mb-3 bannerText'>
+				<h3>Hi, I'm Samuel Okediya, an experienced full stack developer.</h3><br>
+				<span>
+					<. />Reach out, let's create <span class='badge bg-success'>MAGIC</span>
+					<. />
+				</span>
+				<div class='col-12 btndiv mt-5'><a href='#portfolio'><button class='button btn-outline btn-sm'
+							type='submit'><b>View portfolio</b></button></a></div>
+			</div>
+		</div>
+
+		<!--nav bar-->
+		<div class='row' id='nav'>
+			<div class='col col-md-5'>
+				<ul class="nav nav-tabs ms-3 mb-2">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#" id='currentpage'>Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#skills">Skills</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#portfolio">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#blog">Blog</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+
+		<!--Explore my page-->
+
+		<div class='row'>
+			<div class=col-12>
+				<h4 align='center' class='mt-5' id='about'>EXPLORE MY PAGE</h4>
+				<hr class='col-6 col-md-2 offset-md-5 offset-3' align='center' width='40%' style='color:rgb(20,20,20)'
+					;>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-6 col-md-2 offset-md-1 offset-3 mt-3 mt-md-0 explore'><a href='#about'><img
+						src='icons/profile.png' alt='abouticon' class='img-fluid exploreicons mt-3'>
+					<p class='exploretext ms-4'>About</p>
+				</a></div>
+			<div class='col-6 col-md-2 offset-md-2 offset-3 mt-3 mt-md-0 explore'><a href='#skills'><img
+						src='icons/skills.png' alt='skillsicon' class='img-fluid exploreicons mt-3'>
+					<p class='exploretext ms-4'>Skills</p>
+				</a></div>
+			<div class='col-6 col-md-2 offset-md-2 offset-3 mt-3 mt-md-0 explore'><a href='#portfolio'><img
+						src='icons/portfolio.png' alt='portfolioicon' class='img-fluid exploreicons mt-3'>
+					<p class='exploretext ms-4'>Portfolio</p>
+				</a></div>
+			<div class='col-6 col-md-2 offset-md-1 offset-3 mt-md-5 mt-3 mt-md-0 explore'><a href='#blog'><img
+						src='icons/blogging.png' alt='blogicon' class='img-fluid exploreicons mt-3'>
+					<p class='exploretext ms-4'>Blog</p>
+				</a></div>
+			<div class='col-6 col-md-2 offset-md-2 offset-3 mt-md-5 mt-3 mt-md-0 explore'><a href='#contact'><img
+						src='icons/contact-us.png' alt='contacticon' class='img-fluid exploreicons mt-3'>
+					<p class='exploretext ms-4'>Contact</p>
+				</a></div>
+		</div>
+	</div>
+
+	<!--about page-->
+	<div class='row'>
+		<div col-12>
+			<h4 align='center' class='mt-5' id='about'>ABOUT</h4>
+			<hr class='col-2 offset-5' align='center' width='40%' style='color:rgb(20,20,20)' ;>
+		</div>
+
+		<div class='col-12 col-md-4 m-3'>
+			<div class='col-5 offset-md-5 offset-3'>
+				<img class='img-fluid rounded-circle' src='images/sam.jpeg' alt='mypix'>
+			</div>
+		</div>
+		<div class='col-12 col-md-7 m-md-3 p-md-1 p-5' id='abtmebg'>
+			<p class="abtmetext">
+				I'm a frontend developer based in Lagos. I work with ReactJs, Javascript, HTML5, CSS3 and Bootstrap
+				effectively.
+				I am a young tech enthusiast seeking a career in a growing organization, where I can have the
+				opportunities to prove my abilities by accepting challenges as well as fulfilling the organization’s
+				goal and climb the career ladder through continuous learning, hard work, determination, and commitment.
+			</p>
+
+		</div>
+
+	</div>
+
+	<!--skills page-->
+	<div class='row'>
+		<div class='col-12'>
+			<h4 align='center' class='col mt-5' id='skills'>SKILLS</h4>
+			<hr class='col-2 offset-5' align='center' width='40%' style='color:rgb(20,20,20)' ;>
+		</div>
+		<div class='col-6 offset-3'>
+			<div class="progress mt-2" style='height:25px;'>
+				<div class="progress-bar bg-success" role="progressbar" style="width: 98%;" aria-valuenow="25"
+					aria-valuemin="0" aria-valuemax="100">CSS</div>
+			</div>
+			<div class="progress mt-2" style='height:25px;'>
+				<div class="progress-bar bg-info" role="progressbar" style="width: 96%;" aria-valuenow="25"
+					aria-valuemin="0" aria-valuemax="100">HTML</div>
+			</div>
+			<div class="progress mt-2" style='height:25px;'>
+				<div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="25"
+					aria-valuemin="0" aria-valuemax="100">BOOTSTRAP FRAMEWORK</div>
+			</div>
+			<div class="progress mt-2" style='height:25px;'>
+				<div class="progress-bar bg-secondary" role="progressbar" style="width: 92%;" aria-valuenow="25"
+					aria-valuemin="0" aria-valuemax="100">REACT JS</div>
+			</div>
+			<div class="progress mt-2" style='height:25px;'>
+				<div class="progress-bar bg-dark" role="progressbar" style="width: 80%;" aria-valuenow="25"
+					aria-valuemin="0" aria-valuemax="100">JAVASCRIPT</div>
+			</div>
+			<div class="progress mt-2" style='height:25px;'>
+				<div class="progress-bar bg-warning" role="progressbar" style="width: 70%;" aria-valuenow="25"
+					aria-valuemin="0" aria-valuemax="100">PYTHON</div>
+			</div>
+			<div class="progress mt-2" style='height:25px;'>
+				<div class="progress-bar bg-success" role="progressbar" style="width: 70%;" aria-valuenow="25"
+					aria-valuemin="0" aria-valuemax="100">SEO</div>
+			</div>
+			<div class="progress mt-2" style='height:25px;'>
+				<div class="progress-bar bg-info" role="progressbar" style="width: 65%;" aria-valuenow="25"
+					aria-valuemin="0" aria-valuemax="100">MYSQL</div>
+			</div>
+			<div class="progress mt-2" style='height:25px;'>
+				<div class="progress-bar bg-primary" role="progressbar" style="width: 60%;" aria-valuenow="25"
+					aria-valuemin="0" aria-valuemax="100">JQUERY</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<!--portfolio page-->
+	<div class='row'>
+		<div class='col-12'>
+			<h4 class='mt-5' align='center' id='portfolio'>PORTFOLIO</h4>
+			<hr class='col-2 offset-5' align='center' width='40%' style='color:rgb(20,20,20)' ;>
+		</div>
+		<div class='col-12 m-2'>
+			<div class="accordion m-5" id="accordion1">
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="accordion3">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+							aria-controls="panelsStayOpen-collapseThree">
+							Facebook Login (Bootstrap, HTML, CSS)
+						</button>
+					</h2>
+					<div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+						aria-labelledby="panelsStayOpen-headingThree">
+						<div class="accordion-body">
+							<embed src='Responsivefbsignup/' width='100%' height='400px'></embed>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--blog page-->
+	<div class='row'>
+		<div class='col-12'>
+			<h4 class='mt-3' id='blog' align='center'>BLOG</h4>
+			<hr class='col-2 offset-5' align='center' width='40%' style='color:rgb(20,20,20)' ;>
+		</div>
+		<div class='col-12 col-md-4'>
+			<a href='#'>
+				<div class='col-10 col-md-8 offset-md-2 offset-1 blog mt-2'>
+					<img src='images/blog1.jpg' alt="blogimage1" class='img-fluid'>
+					<p style='color:black' class='mt-md-2'><b>Understanding the basics of bootstrap</b></p>
+				</div>
+			</a>
+		</div>
+		<div class='col-12 col-md-4'>
+			<a href='#'>
+				<div class='col-10 col-md-8 offset-md-2 offset-1 blog mt-2'>
+					<img src='images/blog2.jpg' alt="blogimage2" class='img-fluid'>
+					<p style='color:black' class='mt-md-2'><b>How to become a professional software developer in 12
+							weeks</b></p>
+				</div>
+			</a>
+		</div>
+		<div class='col-12 col-md-4'>
+			<a href='#'>
+				<div class='col-10 col-md-8 offset-md-2 offset-1 blog mt-2'>
+					<img src='images/blog3.jpg' alt="blogimage3" class='img-fluid'>
+					<p style='color:black' class='mt-md-2'><b>The basics of ethical hacking</b></p>
+				</div>
+			</a>
+		</div>
+	</div>
+
+	</div>
+	<br>
+	<br>
+
+	<!--contact page-->
+	<div class='row'>
+		<div class='col'>
+			<div class='col-12'>
+				<h4 class='mt-5' id='contact' align='center'>CONTACT</h4>
+				<hr class='col-2 offset-5' align='center' width='40%' style='color:rgb(20,20,20)' ;>
+			</div>
+			<div class='col-6 offset-3'>
+				<form>
+					<div class="mt-3">
+						<input type="text" class="form-control" placeholder="Full Name">
+					</div>
+					<div class="mt-3">
+						<input type="email" class="form-control" placeholder="Email address">
+					</div>
+					<div class="mt-3">
+						<textarea class="form-control" placeholder='Your message' rows="3"></textarea>
+				</form>
+				<div class="submitBTN">
+					<button class='button btn-outline btn-sm mt-5' type='submit'>Submit</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	<hr>
+
+	<!--footer icons-->
+	<div class='row'>
+		<div class='col-4' style='background-color:rgb(0,0,0)'>
+			<div class='col-3 offset-10 footer mt-5'>
+				<a href='instagram.com/psalmie_lee'><img src='icons/instagram.png' alt='instagram'
+						class='socials2 my-s img-fluid'></a>
+			</div>
+		</div>
+		<div class='col-4' style='background-color:rgb(0,0,0)'>
+			<div class='col-3 offset-5 footer mt-5'>
+				<a href='#'><img src='icons/twitter.png' alt='twitter' class='socials2 ms-2 img-fluid'></a>
+			</div>
+		</div>
+		<div class='col-4' style='background-color:rgb(0,0,0)'>
+			<div class='col-3 footer mt-5'>
+				<a href='#'><img src='icons/facebook.png' alt='facebook' class='socials2 ms-2 img-fluid'></a>
+			</div>
+		</div>
+		<div>
+			<p class='mb-4 ps-3' style='color:black'>Developed by Samuel Okediya</p>
+		</div>
+
+	</div>
+	</div>
+
+	<!--javascript-->
+
+	<script type='text/javascript' src='js/bootstrap.bundle.min.js'></script>
+	</div>
+</body>
+
+</html>
