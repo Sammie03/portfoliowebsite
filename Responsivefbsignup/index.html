@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<meta charset='utf-8'>
+		<meta name='viewport' content='width=device-width initial-scale=1 shrink-to-fit=no'>
+		<title>FACEBOOK RESPONSIVENESS ASSIGNMENT</title>
+		<link href='css/bootstrap.css' rel='stylesheet' type='text/css'>
+		<style type='text/css'>
+			html, body {
+				max-width: 100%!important;
+				overflow-x: hidden!important;
+			}
+			div{
+				min-height:50px;
+			}
+		    #fblogo{
+		    	color:white;
+		    }
+		    #fbtext{
+		    	color:darkblue;
+		    	font-weight:bold;
+		    }
+		    #dob{
+		    	font-size:12px;
+		    	color:rgb(79,109,160);
+		    }
+		    a{
+		    	text-decoration:none;
+		    }
+		    #topmenu{
+		    	background-color:rgb(79,109,160);
+		    }
+		    .menutext{
+		    	color:white;
+		    }
+		    #login{
+		    	background-color:rgb(59,89,152);
+		    	border:none;
+		    	color:white;
+		    }
+		</style>
+	</head>
+	<body>
+	<main>
+		<div class='container-fluid' id='topmenu'>
+			<div class='row'>
+				<div class='col-12 col-md-6 mt-3' id='menu'>
+					<h3 id='fblogo'>facebook</h3>
+				</div>
+				<div class='col-12 col-md-6 mb-1'>
+					<form class='row row-cols-sm-auto g-2 align-items-center'>
+						<div class='col-12'>
+							<label for='emailphone' class='col form-label menutext'>Email or Phone</label>
+							<input class='form-control mt-2 col-2' type='text' name='emailphone' id='emailphone'>
+						</div>
+						<div class='col-12'>
+							<label for='password' class='col form-label menutext'>Password</label>
+							<input class='form-control mt-2 col-2' type='password' name='password' id='password'>
+						</div>
+						<div class='col-12'>
+							<button type='submit' class='button btn-sm m-2 mt-5' id='login'>Log In</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+			<div class='row' id='flex'>
+				<div class='col-12 col-md-4 offset-0 offset-md-1'>
+					<p class='mt-5 ps-3' id='fbtext'>Facebook helps you connect and share memories with people in your life</p>
+					<img class='img-fluid pb-4' src='facebook.png'>
+				</div>
+				<div class='col offset-1 mt-3'>
+					<h3>Create an account</h3>
+					<p>It's free and always will be.</p>
+					<form class='row'>
+						<div class='col-11 col-md-5'>
+							<input class='form-control' type='text' name='firstname' placeholder='First name'>
+						</div>
+						<div class='col-11 col-md-5'>
+							<input class='form-control' type='text' name='surname' placeholder='Surname'>
+						</div>
+						<div class='col-11 col-md-10'>
+							<input class='form-control' type='text' name='emailphone' placeholder='Mobile number or email address'>
+						</div>
+						<div class='col-11 col-md-10'>
+							<input class='form-control' type='password' name='password' placeholder='New password'>
+						</div>
+						<p>Birthday</p>
+						<div>
+							<select name='dob'>
+								<option value=''>Day</option>
+								<option value='1'>1</option>
+								<option value='2'>2</option>
+							</select>
+		
+					
+							<select name='dob'>
+								<option value=''>Month</option>
+								<option value='1'>May</option>
+								<option value='2'>June</option>
+							</select>
+				
+			
+							<select name='dob'>
+								<option value=''>Year</option>
+								<option value='1'>1994</option>
+								<option value='2'>1995</option>
+							</select>
+						</div>
+						<div class='col-11'>
+							<span id='dob'>Why do I need to provide my date of birth?</span>
+						</div>
+						<div class='form-check-inline mb-2 col'>
+							<input type='radio' id='female' name='gender' class='form-check-input' value='female'>
+							<label for='female' class='mb-3 form-check-label'>Female</label>
+
+							<input type='radio' id='male' name='gender' class='form-check-input' value='male'>
+							<label for='male' class='mb-3 form-check-label'>Male</label>
+						</div>
+			
+					</form>
+
+						<span class='text-decoration-none'>By clicking Sign up, you agree to our <a href='#'>Terms, Data Policy</a> and <a href='#'>Cookie Policy</a>.<br> You may receive SMS notifications from us and can opt out at anytime.</span>
+						<div class='mt-3'><button class='col-md-2 col button btn-success btn-sm m-2' type='submit'>Sign Up</button></div>
+						<span class='text-decoration-none'><a href='#'>Create a page</a> for a celebrity, brand or business.</span>
+					</div>
+				</div>
+			</main>
+		<footer>
+			<div class='col-md-8 offset-md-2 offset-1 mt-4' id='footer'>
+				<p>English (UK) Hausa Français (France) Español العربية Bahasa Indonesia Deutsch 日本語 Italiano हिन्दी</p>
+				<hr>
+				<p><a href='#'>Sign Up Log In Messenger Facebook Lite WatchPlaces Games Marketplace Facebook Portal Instagram Bulletin Local Fundraisers Services Voting Information Centre Groups About Create adCreate Page Developers Careers Privacy</a></p>
+		</div>
+	</footer>
+	</body>
+</html>
